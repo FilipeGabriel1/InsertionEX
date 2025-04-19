@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args){
         
-
         System.out.println("Lista de Números Desordenada: ");
 
         // Lista de números desordenada
@@ -37,9 +36,8 @@ public class Main {
 
             //serve para inserir o elemento que está sendo ordenado (armazenado na variável aux) na posição correta dentro da parte já ordenada do array.
             array[j + 1] = aux;
+            
         }
 
-        
     }
-
 }
